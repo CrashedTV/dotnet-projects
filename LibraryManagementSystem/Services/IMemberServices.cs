@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LibraryManagementSystem.Services
+﻿public interface IMemberServices
 {
-    internal interface IMemberServices
-    {
-    }
+    //Add Members
+    void AddMembers(Members members);
+    void EditMembers(Members members);
+    void DeleteMembers(Members members);
+    List<Members> ListMembers();
+    void RenewMembership(Members members);
+    void MembershipDuration(Members members);
+    void MembershipType(Members members);
+
+
 }

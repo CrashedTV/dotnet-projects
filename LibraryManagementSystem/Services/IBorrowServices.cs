@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using static System.Net.WebRequestMethods;
 
-namespace LibraryManagementSystem.Services
+public interface IBorrowServices
 {
-    internal interface IBorrowServices
-    {
-    }
+    //Borrow books
+    void BorrowBooks(Borrow borrow);
+    //Due Date Management
+    void DueDate(Borrow borrow);
+    //Fine of Books
+    void Fine(Borrow borrow);
+    //Return Books
+    void ReturnBooks(Borrow borrow);
+
 }
