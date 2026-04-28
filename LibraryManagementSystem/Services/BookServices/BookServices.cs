@@ -1,32 +1,32 @@
 ﻿
 public class BookServices : IBookServices
 {
-    public void AddBooks(Books books)
+    public void AddBooks(Book books)
     {
         throw new NotImplementedException();
     }
 
-    public void DeleteBooks()
+    public void DeleteBooks(int BookId)
     {
         throw new NotImplementedException();
     }
 
-    public List<Books> ListBooks()
+    public List<Book> ListBooks()
     {
         throw new NotImplementedException();
     }
 
-    public void RemoveBooks(Books books)
+    public void RemoveBooks(Book books)
     {
         throw new NotImplementedException();
     }
 
-    public List<Books> SearchBooks()
+    public List<Book> SearchBooks(string keyword)
     {
         throw new NotImplementedException();
     }
 
-    public void UpdateBooks()
+    public void UpdateBooks(Book books)
     {
         throw new NotImplementedException();
     }

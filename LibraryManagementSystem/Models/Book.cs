@@ -1,4 +1,4 @@
-﻿public class Book 
+﻿public class Book : LmsShared
 {
     public int BookId { get; set; } 
     public string Name { get; set; }
@@ -12,8 +12,4 @@
     public string ISBN { get; set; }
     public int NoOfPages { get; set; }
     public string Status { get; set; }
-    public DateTime CreatedDate { get; set; }
-    public string CreatedBy { get; set; }
-    public DateTime ModifiedDate { get; set; }
-    public string ModifiedBy { get; set; }
 }

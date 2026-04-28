@@ -1,6 +1,4 @@
-﻿using static System.Net.WebRequestMethods;
-
-public interface IBorrowServices
+﻿public interface IBorrowServices
 {
     //Borrow books
     void BorrowBooks(Borrow borrow);
@@ -10,5 +8,4 @@ public interface IBorrowServices
     void Fine(Borrow borrow);
     //Return Books
     void ReturnBooks(Borrow borrow);
-
 }
