@@ -2,7 +2,7 @@
 {
     public int MemberId { get; set; }
     public string MemberName { get; set; }
-    public long Phone { get; set; }
+    public string Phone { get; set; }
     public string Address { get; set; }
     public string Email { get; set; }
     public DateTime JoinedDate { get; set; }

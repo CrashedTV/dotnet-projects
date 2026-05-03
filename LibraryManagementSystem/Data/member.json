@@ -1,0 +1,32 @@
+[
+  {
+    "MemberId": 1,
+    "MemberName": "Ayush Shrestha",
+    "Phone": "9869377135",
+    "Address": null,
+    "Email": null,
+    "JoinedDate": "0001-01-01T00:00:00",
+    "ExpirationDate": "2026-08-01T21:36:41.1545773+05:45",
+    "MembershipType": null,
+    "Status": null,
+    "CreatedDate": "2026-05-03T21:33:06.3767475+05:45",
+    "CreatedBy": "admin",
+    "ModifiedDate": "2026-05-03T21:36:41.1546112+05:45",
+    "ModifiedBy": "admin"
+  },
+  {
+    "MemberId": 2,
+    "MemberName": "Darshan Shrestha",
+    "Phone": "123456789",
+    "Address": null,
+    "Email": null,
+    "JoinedDate": "2026-05-03T21:36:16.4291331+05:45",
+    "ExpirationDate": "2026-08-01T21:38:31.5282679+05:45",
+    "MembershipType": null,
+    "Status": null,
+    "CreatedDate": "2026-05-03T21:36:16.4315008+05:45",
+    "CreatedBy": "admin",
+    "ModifiedDate": "2026-05-03T21:38:31.5282721+05:45",
+    "ModifiedBy": "admin"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "BookId": 2,
+    "RecordId": 1,
+    "MemberId": 1,
+    "IssuedDate": "2026-05-03T22:20:13.0959392+05:45",
+    "DueDate": "2026-05-18T22:20:13.0960543+05:45",
+    "LateFine": 0,
+    "ReturnedDate": "2026-05-03T22:26:43.9390424+05:45",
+    "Status": "Returned",
+    "BookRenewedDate": "0001-01-01T00:00:00",
+    "ReceivedBy": null,
+    "Remarks": null,
+    "CreatedDate": "2026-05-03T22:20:13.0963225+05:45",
+    "CreatedBy": "admin",
+    "ModifiedDate": "2026-05-03T22:26:43.9390476+05:45",
+    "ModifiedBy": "admin"
+  }
+]
